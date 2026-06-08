@@ -1,0 +1,43 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="2.InteractiveSlicer.js" />
+	<help file="2.InteractiveSlicer.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="2. Create Slicer">
+		<tabbook>
+			<tab label="Settings" id="tab_Settings">
+				<row id="row_vOSDOVFSTD">
+					<varselector id="shared_workspace_selector" label="Objects in workspace" />
+					<column id="clm_vSDOVFSTDC">
+						<varslot id="sl_data" label="SharedData Object" source="shared_workspace_selector" required="true" />
+						<varslot id="sl_var" label="Variable to Filter" source="shared_workspace_selector" required="true" />
+						<dropdown id="sl_type" label="Slicer Type">
+							<option label="Dropdown/Checkbox" value="select" checked="true" />
+							<option label="Slider (Numeric/Dates)" value="slider" />
+						</dropdown>
+					</column>
+				</row>
+			</tab>
+			<tab label="Output" id="tab_Output">
+				<column id="clm_svbjctlbSS">
+					<saveobject label="Save Slicer object as" checkable="true" checked="true" initial="slicer_obj" id="sl_save_ui" />
+				</column>
+			</tab>
+		</tabbook>
+	</dialog>
+</document>

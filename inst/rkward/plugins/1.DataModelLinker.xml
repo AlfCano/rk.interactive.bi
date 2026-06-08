@@ -1,0 +1,42 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="1.DataModelLinker.js" />
+	<help file="1.DataModelLinker.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="1. Data Linker (Create Data Model)">
+		<tabbook>
+			<tab label="Inputs" id="tab_Inputs">
+				<row id="row_vOS1CSDS1C">
+					<varselector id="shared_workspace_selector" label="Objects in workspace" />
+					<column id="clm_tS1CSDS1CS">
+						<text id="txt_Stp1CnSD">
+							Step 1: Convert a dataset into a 'SharedData' object.
+						</text>
+						<varslot id="dl_data" label="Base Data.frame" source="shared_workspace_selector" classes="data.frame" required="true" />
+						<varslot id="dl_key" label="Key Variable (Optional, for linking)" source="shared_workspace_selector" />
+					</column>
+				</row>
+			</tab>
+			<tab label="Output" id="tab_Output">
+				<column id="clm_svbjctlSSD">
+					<saveobject label="Save Shared Data object as" checkable="true" checked="true" initial="shared_data_obj" id="dl_save_ui" />
+				</column>
+			</tab>
+		</tabbook>
+	</dialog>
+</document>

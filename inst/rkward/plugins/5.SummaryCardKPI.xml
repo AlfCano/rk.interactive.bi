@@ -1,0 +1,37 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="5.SummaryCardKPI.js" />
+	<help file="5.SummaryCardKPI.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="5. Summary KPI Card">
+		<row id="row_vOSDOVASSM">
+			<varselector id="shared_workspace_selector" label="Objects in workspace" />
+			<column id="clm_vSDOVASSMA">
+				<varslot id="sc_data" label="SharedData Object" source="shared_workspace_selector" required="true" />
+				<varslot id="sc_var" label="Variable to Aggregate" source="shared_workspace_selector" required="true" />
+				<dropdown id="sc_stat" label="Statistic">
+					<option label="Sum" value="sum" checked="true" />
+					<option label="Mean/Average" value="mean" />
+					<option label="Count" value="count" />
+				</dropdown>
+				<input label="Card Title / Label (e.g., 'Total Sales')" id="sc_prefix" initial="Total:" />
+				<saveobject label="Save Card object as" checkable="true" checked="true" initial="card_obj" id="sc_save_ui" />
+			</column>
+		</row>
+	</dialog>
+</document>

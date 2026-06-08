@@ -1,0 +1,162 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="1DataModelLinker"
+	id="1DataModelLinker_rkward"
+	po_id="1DataModelLinker_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<about
+		name="rk.interactive.bi"
+		shortinfo="A suite of tools to create Power BI-style interactive dashboards, cross-filtered visuals, and slicers without a Shiny server."
+		longinfo="A suite of tools to create Power BI-style interactive dashboards, cross-filtered visuals, and slicers without a Shiny server."
+		version="0.0.1"
+		releasedate="2026-06-07"
+		url="https://github.com/AlfCano/rk.interactive.bi"
+		license="GPL (&gt;= 3)"
+	>
+		<author
+			given="Alfonso"
+			family="Cano"
+			email="alfonso.cano@correo.buap.mx"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_1DataModlLnkr2IntrctvSlcr"
+			label="2. Interactive Slicer"
+			type="standard"
+			file="plugins/2.InteractiveSlicer.xml"
+		>
+		</component>
+		<component
+			id="cmp_1DataModelLnkr3IntrctvPlt"
+			label="3. Interactive Plot"
+			type="standard"
+			file="plugins/3.InteractivePlot.xml"
+		>
+		</component>
+		<component
+			id="cmp_1DataModelLnkr4IntrctvTbl"
+			label="4. Interactive Table"
+			type="standard"
+			file="plugins/4.InteractiveTable.xml"
+		>
+		</component>
+		<component
+			id="cmp_1DataModlLnkr5SmmryCrdKPI"
+			label="5. Summary Card (KPI)"
+			type="standard"
+			file="plugins/5.SummaryCardKPI.xml"
+		>
+		</component>
+		<component
+			id="cmp_1DatMdlLnkr6DshbrdAssmblr"
+			label="6. Dashboard Assembler"
+			type="standard"
+			file="plugins/6.DashboardAssembler.xml"
+		>
+		</component>
+		<component
+			id="cmp_1DataModelLnkr7ExprttHTML"
+			label="7. Export to HTML"
+			type="standard"
+			file="plugins/7.ExporttoHTML.xml"
+		>
+		</component>
+		<component
+			id="cmp_1DataModelLinkr1DtMdlLnkr"
+			label="1. Data Model Linker"
+			type="standard"
+			file="plugins/1.DataModelLinker.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="men_InterctvBI"
+			label="Interactive BI"
+		>
+			<entry
+				component="cmp_1DataModlLnkr2IntrctvSlcr"
+			/>
+		</menu>
+		<menu
+			id="men_InterctvBI"
+			label="Interactive BI"
+		>
+			<entry
+				component="cmp_1DataModelLnkr3IntrctvPlt"
+			/>
+		</menu>
+		<menu
+			id="men_InterctvBI"
+			label="Interactive BI"
+		>
+			<entry
+				component="cmp_1DataModelLnkr4IntrctvTbl"
+			/>
+		</menu>
+		<menu
+			id="men_InterctvBI"
+			label="Interactive BI"
+		>
+			<entry
+				component="cmp_1DataModlLnkr5SmmryCrdKPI"
+			/>
+		</menu>
+		<menu
+			id="men_InterctvBI"
+			label="Interactive BI"
+		>
+			<entry
+				component="cmp_1DatMdlLnkr6DshbrdAssmblr"
+			/>
+		</menu>
+		<menu
+			id="men_InterctvBI"
+			label="Interactive BI"
+		>
+			<entry
+				component="cmp_1DataModelLnkr7ExprttHTML"
+			/>
+		</menu>
+		<menu
+			id="men_InterctvBI"
+			label="Interactive BI"
+		>
+			<entry
+				component="cmp_1DataModelLinkr1DtMdlLnkr"
+			/>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>

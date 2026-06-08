@@ -1,0 +1,33 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="7.ExporttoHTML.js" />
+	<help file="7.ExporttoHTML.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="7. Export Dashboard to HTML">
+		<row id="row_vOSDOSDODO">
+			<varselector id="shared_workspace_selector" label="Objects in workspace" />
+			<column id="clm_tSDOSDODOS">
+				<text id="txt_SlctthDO">
+					Select the completed Dashboard Object, and choose a folder on your computer to save it as a standalone interactive webpage.
+				</text>
+				<varslot id="ex_obj" label="Dashboard Object to Save" source="shared_workspace_selector" required="true" />
+				<browser label="Save as (.html)" type="savefile" id="ex_file" />
+			</column>
+		</row>
+	</dialog>
+</document>

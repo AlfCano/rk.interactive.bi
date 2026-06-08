@@ -1,0 +1,30 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="4.InteractiveTable.js" />
+	<help file="4.InteractiveTable.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="4. Interactive Table Matrix">
+		<row id="row_vOSDOSTSDO">
+			<varselector id="shared_workspace_selector" label="Objects in workspace" />
+			<column id="clm_vrsltSDOST">
+				<varslot id="dt_data" label="SharedData Object" source="shared_workspace_selector" required="true" />
+				<saveobject label="Save Table object as" checkable="true" checked="true" initial="table_obj" id="dt_save_ui" />
+			</column>
+		</row>
+	</dialog>
+</document>

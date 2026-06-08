@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.interactive.bi 0.0.1\n"
+"Report-Msgid-Bugs-To: alfonso.cano@correo.buap.mx\n"
+"POT-Creation-Date: 2026-06-07 23:00-0600\n"
+"PO-Revision-Date: 2026-06-07 23:00-0600\n"
+"Last-Translator: Alfonso Cano <alfonso.cano@correo.buap.mx>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "A suite of tools to create Power BI-style interactive dashboards, cross-filtered visuals, and slicers without a Shiny server."
+msgstr "Eine Reihe von Tools zum Erstellen interaktiver Dashboards im Power BI-Stil, kreuzgefilterter Visualisierungen und Datenschnitte (Slicer) ohne einen Shiny-Server."
+
+msgid "Interactive BI"
+msgstr "Interaktives BI"
+
+msgid "Objects in workspace"
+msgstr "Objekte im Arbeitsbereich"
+
+msgid "1. Data Model Linker"
+msgstr "1. Datenmodell-Verknüpfer"
+
+msgid "1. Data Linker (Create Data Model)"
+msgstr "1. Daten-Verknüpfer (Datenmodell erstellen)"
+
+msgid "Base Data.frame"
+msgstr "Basis-Data.frame"
+
+msgid "Key Variable (Optional, for linking)"
+msgstr "Schlüsselvariable (Optional, zur Verknüpfung)"
+
+msgid "Save Shared Data object as"
+msgstr "Shared Data-Objekt speichern als"
+
+msgid "Inputs"
+msgstr "Eingaben"
+
+msgid "Step 1: Convert a dataset into a 'SharedData' object."
+msgstr "Schritt 1: Konvertieren Sie einen Datensatz in ein 'SharedData'-Objekt."
+
+msgid "Output"
+msgstr "Ausgabe"
+
+msgid "Data Linker: SharedData Model Created"
+msgstr "Daten-Verknüpfer: SharedData-Modell erstellt"
+
+msgid "2. Interactive Slicer"
+msgstr "2. Interaktiver Datenschnitt (Slicer)"
+
+msgid "2. Create Slicer"
+msgstr "2. Datenschnitt erstellen"
+
+msgid "SharedData Object"
+msgstr "SharedData-Objekt"
+
+msgid "Variable to Filter"
+msgstr "Zu filternde Variable"
+
+msgid "Slicer Type"
+msgstr "Datenschnitt-Typ"
+
+msgid "Dropdown/Checkbox"
+msgstr "Dropdown / Kontrollkästchen"
+
+msgid "Slider (Numeric/Dates)"
+msgstr "Schieberegler (Numerisch/Datum)"
+
+msgid "Save Slicer object as"
+msgstr "Datenschnitt-Objekt speichern als"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Interactive Slicer Created"
+msgstr "Interaktiver Datenschnitt erstellt"
+
+msgid "3. Interactive Plot"
+msgstr "3. Interaktives Diagramm"
+
+msgid "X Axis"
+msgstr "X-Achse"
+
+msgid "Y Axis (Optional)"
+msgstr "Y-Achse (Optional)"
+
+msgid "Color By (Optional)"
+msgstr "Farbe nach (Optional)"
+
+msgid "Plot Type"
+msgstr "Diagrammtyp"
+
+msgid "Bar Chart"
+msgstr "Balkendiagramm"
+
+msgid "Scatter Plot"
+msgstr "Streudiagramm"
+
+msgid "Line Chart"
+msgstr "Liniendiagramm"
+
+msgid "Save Plot object as"
+msgstr "Diagramm-Objekt speichern als"
+
+msgid "Variables"
+msgstr "Variablen"
+
+msgid "Interactive Plot Created"
+msgstr "Interaktives Diagramm erstellt"
+
+msgid "4. Interactive Table"
+msgstr "4. Interaktive Tabelle"
+
+msgid "4. Interactive Table Matrix"
+msgstr "4. Interaktive Tabellenmatrix"
+
+msgid "Save Table object as"
+msgstr "Tabellen-Objekt speichern als"
+
+msgid "Interactive Table Created"
+msgstr "Interaktive Tabelle erstellt"
+
+msgid "5. Summary Card (KPI)"
+msgstr "5. Zusammenfassungskarte (KPI)"
+
+msgid "5. Summary KPI Card"
+msgstr "5. KPI-Zusammenfassungskarte"
+
+msgid "Variable to Aggregate"
+msgstr "Zu aggregierende Variable"
+
+msgid "Statistic"
+msgstr "Statistik"
+
+msgid "Sum"
+msgstr "Summe"
+
+msgid "Mean/Average"
+msgstr "Mittelwert"
+
+msgid "Count"
+msgstr "Anzahl"
+
+msgid "Card Title / Label (e.g., 'Total Sales')"
+msgstr "Kartentitel / Etikett (z.B. 'Gesamtumsatz')"
+
+msgid "Save Card object as"
+msgstr "Karten-Objekt speichern als"
+
+msgid "Summary Card Created"
+msgstr "Zusammenfassungskarte erstellt"
+
+msgid "6. Dashboard Assembler"
+msgstr "6. Dashboard-Ersteller"
+
+msgid "Select visuals, slicers, and cards"
+msgstr "Visualisierungen, Datenschnitte und Karten auswählen"
+
+msgid "Column Widths (comma separated, max 12. e.g: 3, 3, 6)"
+msgstr "Spaltenbreiten (kommagetrennt, max. 12. z.B: 3, 3, 6)"
+
+msgid "Dashboard Theme"
+msgstr "Dashboard-Design"
+
+msgid "Standard Light"
+msgstr "Standard Hell"
+
+msgid "Dark Mode (Darkly)"
+msgstr "Dunkelmodus (Darkly)"
+
+msgid "Flat Corporate (Flatly)"
+msgstr "Flach & Geschäftlich (Flatly)"
+
+msgid "Blue Accent (Cerulean)"
+msgstr "Blauer Akzent (Cerulean)"
+
+msgid "Save Dashboard object as"
+msgstr "Dashboard-Objekt speichern als"
+
+msgid "Widgets & Layout"
+msgstr "Widgets & Layout"
+
+msgid "Style & Output"
+msgstr "Stil & Ausgabe"
+
+msgid "Dashboard Assembled"
+msgstr "Dashboard zusammengestellt"
+
+msgid "<br><b>Previewing Dashboard...</b>"
+msgstr "<br><b>Dashboard-Vorschau...</b>"
+
+msgid "7. Export to HTML"
+msgstr "7. Nach HTML exportieren"
+
+msgid "7. Export Dashboard to HTML"
+msgstr "7. Dashboard nach HTML exportieren"
+
+msgid "Dashboard Object to Save"
+msgstr "Zu speicherndes Dashboard-Objekt"
+
+msgid "Save as (.html)"
+msgstr "Speichern unter (.html)"
+
+msgid "Select the completed Dashboard Object, and choose a folder on your computer to save it as a standalone interactive webpage."
+msgstr "Wählen Sie das fertige Dashboard-Objekt und einen Ordner auf Ihrem Computer, um es als eigenständige interaktive Webseite zu speichern."
+
+msgid "Dashboard Exported Successfully"
+msgstr "Dashboard erfolgreich exportiert"
+
+msgid "<b>File saved to:</b> "
+msgstr "<b>Datei gespeichert unter:</b> "

@@ -1,0 +1,19 @@
+Package: rk.interactive.bi
+Type: Package
+Title: A suite of tools to create Power BI-style interactive
+        dashboards, cross-filtered visuals, and slicers without a Shiny
+        server.
+Version: 0.0.1
+Date: 2026-06-07
+Author: Alfonso Cano
+Maintainer: Alfonso Cano <alfonso.cano@correo.buap.mx>
+Enhances: rkward
+Description: A suite of tools to create Power BI-style interactive
+        dashboards, cross-filtered visuals, and slicers without a Shiny
+        server.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyLoad: yes
+URL: https://github.com/AlfCano/rk.interactive.bi
+Authors@R: person(given="Alfonso", family="Cano",
+        email="alfonso.cano@correo.buap.mx", role=c("aut", "cre"))

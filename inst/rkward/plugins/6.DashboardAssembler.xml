@@ -1,0 +1,45 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="6.DashboardAssembler.js" />
+	<help file="6.DashboardAssembler.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="6. Dashboard Assembler">
+		<tabbook>
+			<tab label="Widgets &amp; Layout" id="tab_WdgtsLyt">
+				<row id="row_vOSCW12336">
+					<varselector id="shared_workspace_selector" label="Objects in workspace" />
+					<column id="clm_vSCW12336N">
+						<varslot id="as_objs" label="Select visuals, slicers, and cards" source="shared_workspace_selector" required="true" multi="true" />
+						<input label="Column Widths (comma separated, max 12. e.g: 3, 3, 6)" id="as_widths" initial="NA" />
+					</column>
+				</row>
+			</tab>
+			<tab label="Style &amp; Output" id="tab_StylOtpt">
+				<column id="clm_dDTSLDMDFC">
+					<dropdown id="as_theme" label="Dashboard Theme">
+						<option label="Standard Light" value="default" checked="true" />
+						<option label="Dark Mode (Darkly)" value="darkly" />
+						<option label="Flat Corporate (Flatly)" value="flatly" />
+						<option label="Blue Accent (Cerulean)" value="cerulean" />
+					</dropdown>
+					<saveobject label="Save Dashboard object as" checkable="true" checked="true" initial="dashboard_obj" id="as_save_ui" />
+				</column>
+			</tab>
+		</tabbook>
+	</dialog>
+</document>
